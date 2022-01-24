@@ -16,6 +16,7 @@ public class Solution {
         String getVacancy() {
             return vacancy.getVacancy();
         }
+
         long getId() {
             return id;
         }
@@ -25,6 +26,10 @@ public class Solution {
 
         String getVacancy() {
             return vacancy;
+        }
+
+        public Vacancy(String vacancy) {
+            this.vacancy = vacancy;
         }
     }
 }
