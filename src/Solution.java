@@ -1,9 +1,11 @@
 public class Solution {
+    
     public static void main(String[] args) {
         Employee tester = new Employee(7,"Developer");
         System.out.println(tester.getId());
         System.out.println(tester.getVacancy());
     }
+    
     static class Employee {
         private long id;
         private Vacancy vacancy;
@@ -21,6 +23,7 @@ public class Solution {
             return id;
         }
     }
+    
     static class Vacancy {
         private String vacancy;
 
