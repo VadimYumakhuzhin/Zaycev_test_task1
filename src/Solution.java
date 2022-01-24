@@ -7,6 +7,12 @@ public class Solution {
     static class Employee {
         private long id;
         private Vacancy vacancy;
+
+        public Employee(int id, String vacancy) {
+            this.id = id;
+            this.vacancy = new Vacancy(vacancy);
+        }
+
         String getVacancy() {
             return vacancy.getVacancy();
         }
