@@ -20,9 +20,11 @@ public class Solution {
             return id;
         }
     }
-    class Vacancy {
+    static class Vacancy {
+        private String vacancy;
+
         String getVacancy() {
-            return "engineer";
+            return vacancy;
         }
     }
 }
