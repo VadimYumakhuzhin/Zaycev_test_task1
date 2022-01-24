@@ -33,7 +33,7 @@ public class Solution {
         System.out.println(tester.getId());
         System.out.println(tester.getVacancy());
     }
-    class Employee {
+    static class Employee {
         private long id;
         private Vacancy vacancy;
         String getVacancy() {
